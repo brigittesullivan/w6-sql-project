@@ -15,3 +15,7 @@
 
 ## Future Goals
 (what would you do if you had more time?)
+
+## Assumptions
+- unitcost product price 
+- columns with the same name have same meaning/value 
