@@ -48,7 +48,7 @@ SQL Queries:
 
 Answer:
 
-
+-- US dominates sales 
 
 
 
@@ -60,6 +60,8 @@ SQL Queries:
 
 Answer:
 
+Assumption: impact = % of revenue, found error when calculating total revenue (analytics was calc all rows evven if no country data). 
+sales data without associated cities and countries were removed from analysis. 
 
 
 
