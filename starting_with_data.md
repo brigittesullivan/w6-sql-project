@@ -24,7 +24,7 @@ Answer:
 
 
 
-Question 2: 
+Question 2: Does the US alone account for more sales than all other countries combined? (IDEA)
 
 SQL Queries:
 
