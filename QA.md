@@ -8,6 +8,7 @@ QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 
 * For every query, additional queries were created and run to verify the output is what is expected. This is a habit now. I also will write queries in a very iterative, modular way (usually starting with a SELECT * FROM table) and then gradually add to the query verifying the result is correct before moving on to adding another component to the query.
+* when JOINS required, always started with FULL OUTER JOIN first, then determined if a more specific join type would work AFTER seeing the join result and would then modify as needed. I use "INNER JOIN" to indicate that I have already tested the full outer join (as opposed to JOIN which for me means I did not QA the result of the FULL OUTER JOIN before implementing). 
 * when cleaning entire columns the original column would be included in the cleaning query to verify that the cleaning query executed as expected before loading clean data into a new table. 
 
 e.g.: Resolving "nullish" cities in all sessions, the orignal city column was included. 

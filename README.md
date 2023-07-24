@@ -8,7 +8,7 @@
 ### (your step 2)
 
 ### Assumptions
-- unit cost and product price are same
+- unit cost (analytics) and product price (all_sessions) have the same meaning, but used unit cost (analytics) since data was more complete to calculate revenue. Ignored all columns with revenue in column name.  
 - columns with the same name have same meaning/value 
 - visitid is the most unique identifier that can be used to join analytics and all_sessions
 
@@ -20,7 +20,7 @@
 ## Results
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
-* Should focus streamline efforts on the USA market. Most revenue from this area. 
+* Should focus streamline efforts on the USA market. Most revenue from this area with New York generating 25% of total revenue and Sunnyvale and Mountain view generating the other 25%. 
 
 
 ## Challenges 
