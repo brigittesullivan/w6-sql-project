@@ -142,7 +142,7 @@ GROUP BY
 HAVING COUNT(*) > 1
 ```
 
-Query 4: During analysis of starting with questions found that the product category data was too granular, and wanted to find patterns at a higher level grouping for product categories.  
+Query 4: Product Category Grouping. During analysis of starting with questions found that the product category data was too granular, and wanted to find patterns at a higher level grouping for product categories.  
 
 ```sql
 --- make a top category to group categories at a higher level. 
@@ -151,6 +151,5 @@ SELECT 		v2ProductCategory,	regexp_replace(v2productcategory, '^([^/]*/[^/]*)/.*
 FROM 		all_sessions
 WHERE 		country IS NOT NULL AND city IS NOT NULL
 GROUP BY 	v2ProductCategory, category_group
-
 
 ```

@@ -4,6 +4,8 @@ What are your risk areas? Identify and describe them.
 
 * The data set has many quality issues and I have insufficient time to address all of them. As a result, data cleaning and QA was focused on removing blockers to completing the analysis.
 
+ 
+
 QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 

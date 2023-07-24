@@ -71,7 +71,7 @@ Answer:
     1. Chicago, USA - 5
     2. Pittsburgh, USA - 4
     3. New York, USA - 3.83
-* Observation - since Chicago and Pittsburgh have intergers as averages, it is suspicious that this is truly an average and could just be large single orders. 
+* Observation - since Chicago and Pittsburgh have intergers as averages, it is suspicious that this is truly an average and could just be large single orders. Additional QA needed to determine if this is a single order with high amount of products ordered.  
 
 
 **Question 3: Is there any pattern in the types (product categories) of products ordered from visitors in each city and country?**
