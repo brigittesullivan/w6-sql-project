@@ -1,6 +1,6 @@
 # Final Project Transforming and Analyzing Data with SQL </br>
 By : Brigitte Sullivan <br>
-Submitted on: July 24th, 2023
+Submitted on: July 24th, 2023 <br>
 Lighthouse Labs Data Science Program <br>
 
 
